@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 238px;
+
+    padding: 10px 30px;
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: white;
+
+    background-color: #2D4A22;
+}
+
+header h1{
+    font-size: 1.7rem;
+    font-weight:400;
+}
+header h1 span{
+    color: #49AA26;
+}
+
+header h1 span:nth-child(2){
+    margin-left: 50px;
+    font-size: 1.5rem;
+}
+
+main{
+    margin: 0 50px;
+    position: relative;
+}
+
+.cards-container{
+    width: 100%;
+    position: absolute;
+    top: -100px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards{
+    width: 352px;
+    height: 136px;
+    padding: 20px;
+
+    background-color: #FFFFFF;
+
+    border-radius: 8px;
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* color: #363F5F; */
+}
+
+.down{
+    margin-top: 20px;
+}
+
+.total-card{
+    color: #FFFFFF;
+    background-color: #49AA26;
+}
+
+.top h2{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.down h2{
+    color: #363F5F;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.total-card h2{color: #FFFFFF;}
+
+.income-card .top h2{color: #363F5F;}
+
+.outcome-card .top h2{color: #969CB2;}
+
